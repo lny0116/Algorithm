@@ -6,7 +6,7 @@ int sorted[8]; // 정렬 배열은 반드시 전역 변수로 선언
 void merge(int a[], int m, int middle, int n){ //m 시작점, middle 중간점, n 끝점 
 	int i = m;
 	int j = middle + 1;
-	int k = m;
+	int k = m; //전역변수로 선언된 k는 사실상 i와 동일한 위치를 갖는다. 
 	// 작은 순서대로 배열에 삽입 
 	while(i <= middle && j <= n){
 		if(a[i] <= a[j]){
