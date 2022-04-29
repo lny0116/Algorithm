@@ -1,3 +1,4 @@
+# 250 ms 18.7 MB
 # def reverseString(s) -> None:
 #     # 처음 생각했던 코드 - return을 써서 안됨..
 #     # s = s[::-1]
