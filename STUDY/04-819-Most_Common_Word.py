@@ -27,6 +27,7 @@ def mostCommonWord(paragraph: str, banned: list[str]) -> str:
     cnt = Counter(p)
     # print(cnt)
     return cnt.most_common(1)[0][0]
+    # counter에서 어떻게 뽑아야할지 모르겠어서 마지막 부분은 답지를 참고함. most_common
     
        
 
