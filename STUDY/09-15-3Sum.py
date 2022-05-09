@@ -1,6 +1,7 @@
 # 775 ms	18.2 MB
 # https://leetcode.com/problems/3sum/
 # 브루트 포스로 풀다가, 반례를 생각 못 하고 틀려서 답지 보고 풀었습니다 ㅠ^ㅜ
+# 이거 투 포인터 풀이임, 완탐으로 풀면 시간초과 나
 
 def threeSum(nums: list[int]) -> list[list[int]]:
     results = []
