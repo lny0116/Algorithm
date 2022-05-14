@@ -1,4 +1,4 @@
-# 	1859 ms	25 MB
+# 1859 ms	25 MB
 # https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 
 import sys
