@@ -8,12 +8,6 @@ class ListNode:
         self.next = next
 class Solution:
     def oddEvenList(self, head: ListNode) -> ListNode:
-        # root = prev = ListNode(None)
-        # prev.next = head #head == odd
-
-        # while head and head.next:
-        #     even = head.next
-        #     head.next = even.next #3을 가리
 
         if head is None:
             return None #예외처리를 해주지 않으면 런타임에러가 뜸
