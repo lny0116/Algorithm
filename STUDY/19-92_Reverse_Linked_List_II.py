@@ -26,14 +26,3 @@ class Solution:
         return root.next
 
 # 책 참고
-
-
-        # root = start = ListNode(None)
-        # end = start.next
-        # while start:
-        #     if start.next == left:
-        #         start.next = right
-        #         right.next = left.next
-        #         left.next = end
-
-        # return start
