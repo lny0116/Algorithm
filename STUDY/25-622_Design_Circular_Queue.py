@@ -1,4 +1,4 @@
-# 62 ms	14.6 MB
+# 135 ms	14.6 MB
 # https://leetcode.com/problems/design-circular-queue/
 
 class MyCircularQueue:
@@ -19,25 +19,37 @@ class MyCircularQueue:
     def deQueue(self) -> bool:
         if len(self.q) == 0:
             return False
-        
-        del self.q[0]
-        return True
+        else:
+            del self.q[0]
+            return True
 
     # Gets the front item from the queue. If the queue is empty, return -1.
     def Front(self) -> int:
-        return -1 if len(self.q) == 0 else self.q[0]
+        if len(self.q) == 0:
+            return -1
+        else:
+            return self.q[0]
 
     # Gets the last item from the queue. If the queue is empty, return -1.
     def Rear(self) -> int:
-        return -1 if len(self.q) == 0 else self.q[-1]
+        if len(self.q) == 0:
+            return -1 
+        else:
+            return self.q[-1]
 
     # Checks whether the circular queue is empty or not.
     def isEmpty(self) -> bool:
-        return True if len(self.q) == 0 else False
+        if len(self.q) == 0:
+            return True 
+        else:
+            return False
 
     # Checks whether the circular queue is full or not.
     def isFull(self) -> bool:
-        return True if len(self.q) == self.size else False        
+        if len(self.q) == self.size:
+            return True 
+        else:
+            return False
 
 
 # Your MyCircularQueue object will be instantiated and called as such:
