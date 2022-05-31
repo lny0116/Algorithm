@@ -8,10 +8,10 @@ def numJewelsInStones(jewels: str, stones: str) -> int:
     cnt = 0
 
     for i in stones:
-        how[i] +=1
+        how[i] +=1 # 돌 단어 하나씩 카운트
 
     for i in jewels:
-        cnt += how[i]
+        cnt += how[i] # how[i]의 단어와 일치할 때 cnt 업
     
     return cnt
 
