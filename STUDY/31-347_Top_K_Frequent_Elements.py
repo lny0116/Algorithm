@@ -14,11 +14,11 @@ def topKFrequent(nums: list[int], k: int) -> list[int]:
 
     res = []
 
-    for a,b in dic_sort: #a =key, b=value
+    for key,value in dic_sort:
         # print(a,b)
 
         if len(res) < k:
-            res.append(a)
+            res.append(key)
     
     return res
 
