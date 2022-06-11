@@ -1,8 +1,7 @@
-# 
+# 85 ms	14.6 MB
 # https://leetcode.com/problems/reconstruct-itinerary/
 
 from collections import defaultdict
-
 
 def findItinerary(tickets: list[list[str]]) -> list[str]:
     graph = defaultdict(list)
@@ -23,9 +22,6 @@ def findItinerary(tickets: list[list[str]]) -> list[str]:
     return res[::-1]
 
         
-
-
-
 #     res = []
 
 #     dfs(tickets, "", res)
