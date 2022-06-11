@@ -1,9 +1,6 @@
 # 68 ms	14.2 MB
 # https://leetcode.com/problems/subsets/
 
-from collections import defaultdict
-
-
 def subsets(nums: list[int]) -> list[list[int]]:
     res = []
 
