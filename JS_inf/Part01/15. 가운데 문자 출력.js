@@ -38,3 +38,10 @@ console.log(solution("good"));//oo
 console.log(solution("length"));//ng
 console.log(solution("hello"));//l
 console.log(solution("abcdef"));//cd
+
+/*
+substring(start index, end index)
+-> substring(1,2)하면 1번 인덱스만 뽑힘
+substr(start index, start index to next index) -> study(0,1,2,3,4) -> t뽑
+-> substr(1,2)하면 1번 인덱스부터 2개 뽑음 -> good(0,1,2,3) -> oo뽑
+*/
