@@ -7,5 +7,6 @@ function solution(seoul) {
             // console.log(where);
         }
     }
+    
     return answer = `김서방은 ${where[0]}에 있다`;
 }
